@@ -1,0 +1,36 @@
+.hero-section {
+  background-image: url("https://via.placeholder.com/1200x400");
+  background-size: cover;
+  height: 650px;
+}
+
+.destination-card {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+#destinations,
+#about,
+#contact {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.navbar-brand {
+  margin-right: 0 !important;
+}
+.city-section {
+  text-align: center;
+  padding: 50px 0;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.card-text {
+  margin-bottom: 10px;
+}
