@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./asserts/CSS/styles.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">TravelSite</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destinations">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="heroCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#heroCarousel" data-slide-to="1"></li>
+        <li data-target="#heroCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./asserts/images/vacation1.jpg"
+            class="d-block w-100"
+            alt="Slide 1"
+            height="500px"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Welcome to TravelSite</h5>
+            <p>Discover amazing destinations around the world.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./asserts/images/vacation2.jpg"
+            class="d-block w-100"
+            alt="Slide 2"
+            height="500px"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Explore new adventures</h5>
+            <p>Book your dream vacation today!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./asserts/images/vacation3.jpg"
+            class="d-block w-100"
+            height="500px"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Plan your next getaway</h5>
+            <p>Unforgettable experiences await.</p>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#heroCarousel"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#heroCarousel"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="container mt-4">
+      <h2 class="text-center mb-4">Popular Destinations</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card destination-card">
+            <img
+              src="./asserts/images/vacation1.jpg"
+              class="card-img-top"
+              alt="Destination Image"
+              width="330px"
+              height="200px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Vizag</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <a href="vizag.html" class="btn btn-primary">View hotels</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card destination-card">
+            <img
+              src="./asserts/images/vacation2.jpg"
+              class="card-img-top"
+              alt="Destination Image"
+              width="330px"
+              height="200px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bangalore</h5>
+              <p class="card-text">
+                Sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.
+              </p>
+              <a href="Bangalore.html" class="btn btn-primary">View hotels</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card destination-card">
+            <img
+              src="./asserts/images/vacation4.jpg"
+              class="card-img-top"
+              alt="Destination Image"
+              width="330px"
+              height="200px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kolkata</h5>
+              <p class="card-text">
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris.
+              </p>
+              <a href="Kolkata.html" class="btn btn-primary">View hotels</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container mt-4">
+      <h2 class="text-center mb-4">About Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="card mb-3">
+            <div class="row no-gutters">
+              <div class="col-md-5">
+                <img
+                  src="./asserts/images/pexels-pixabay-237272.jpg"
+                  class="card-img"
+                  alt="Company Image"
+                  style="height: 350px; object-fit: cover"
+                />
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title">Hema Tours & Travels</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Fusce nec velit dui. Nullam sagittis lobortis leo, eu
+                    scelerisque risus convallis vel.
+                  </p>
+                  <p class="card-text">
+                    Pellentesque nec neque sit amet elit pretium aliquet.
+                    Phasellus eu ex vel quam suscipit luctus vel vitae ligula.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container mt-4">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter your email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="3"
+            placeholder="Enter your message"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+
+    <footer class="footer mt-4">
+      <div class="container">
+        <p>&copy; 2022 TravelSite. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
